@@ -25,7 +25,7 @@ script.js: JavaScript file for interactive features.
 Accessing the Project on GitHub
 1.	Repository Link: https://github.com/BazenHaile/JavaScriptProject.git
 2.	Clone the Repository: Use git clone <gh repo clone BazenHaile/JavaScriptProject> to clone the repo.
-3.	Viewing the Site: Open the HTML files in a browser to view the project.
+3.	Viewing the Site: Open this link https://bazenhaile.github.io/JavaScriptProject/ or use the HTML files in a browser to view the project.
 4.	Contributions: Guidelines for forking the repository, making changes, and submitting pull requests.
 
 
