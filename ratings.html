@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script defer src="script.js"></script>
+
+    <title>Ratings - Book Review Site</title>
+</head>
+
+<body>
+    <header>
+        <h1>Book Review Site</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="books.html">Books</a></li>
+                <li><a href="ratings.html">Ratings</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="ratings">
+            <div class="container">
+                <h2>Ratings/underconstruction</h2>
+
+                <!-- Book Ratings -->
+                <div class="card mb-3">
+                    <div class="card-header">
+                        <h3>Becoming</h3>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Average Rating: <span id="becomingAvgRating" data-book-id="becoming">0</span></p>
+                        <div id="becomingStars" class="rating-stars" data-book-id="becoming"></div>
+                        <p>Total Ratings: <span id="becomingTotalRatings" data-book-id="becoming">0</span></p>
+                    </div>
+                </div>
+
+                <!-- Add more book ratings as needed -->
+
+                <div class="card mb-3">
+                    <div class="card-header">
+                        <h3>The Alchemist</h3>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Average Rating: <span id="alchemistAvgRating" data-book-id="alchemist">0</span></p>
+                        <div id="alchemistStars" class="rating-stars" data-book-id="alchemist"></div>
+                        <p>Total Ratings: <span id="alchemistTotalRatings" data-book-id="alchemist">0</span></p>
+                    </div>
+                </div>
+                
+
+                <div class="card mb-3">
+                    <div class="card-header">
+                        <h3>Finding Me</h3>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Average Rating: <span id="findingMeAvgRating" data-book-id="findingMe">0</span></p>
+                        <div id="findingMeStars" class="rating-stars" data-book-id="findingMe"></div>
+                        <p>Total Ratings: <span id="findingMeTotalRatings" data-book-id="findingMe">0</span></p>
+                    </div>
+                </div>
+                
+
+                <div class="card mb-3">
+                    <div class="card-header">
+                        <h3>The Power of Now</h3>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Average Rating: <span id="nowAvgRating" data-book-id="now">0</span></p>
+                        <div id="nowStars" class="rating-stars" data-book-id="now"></div>
+                        <p>Total Ratings: <span id="nowTotalRatings" data-book-id="now">0</span></p>
+                    </div>
+                </div>
+                
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Book Review Site. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS CDN link (Bundle) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

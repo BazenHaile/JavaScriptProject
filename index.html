@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Bootstrap CSS link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="styles.css">
+
+    <script defer src="script.js"></script>
+
+    <title>Book Review Site</title>
+</head>
+
+<!--So the body is divided into Header, Main, & Footer, The CSS is applied accordingly-->
+
+<body> 
+
+    <header>
+        <h1>Book Review Site</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="books.html">Books</a></li>
+                <li><a href="ratings.html">Ratings</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+    <!-- Add the Bootstrap Carousel HTML below this line -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="becoming.html">
+                <img src="Images/Becoming.jpg" class="d-block mx-auto" alt="Slide 1">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="the_alchemist.html">
+                <img src="Images/The Alchemist.jpg" class="d-block mx-auto" alt="Slide 2">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="finding_me.html">
+                <img src="Images/Finding Me.jpg" class="d-block mx-auto" alt="Slide 3">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="the_power_of_now.html">
+                <img src="Images/The Power of Now.jpg" class="d-block mx-auto" alt="Slide 4">
+                </a>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <section id="home">
+        <h2>Welcome to our Book Review Site!</h2>
+        <p>
+        Welcome to our Book Review Site! Here, we invite you to embark on a literary journey where the world of books comes alive through insightful reviews and engaging summaries.Our platform is designed to be your go-to destination for discovering and evaluating captivating reads.
+        </p>
+        <h2> Rate Books You Have Read!</h2>
+        <p>
+        Explore our curated collection of book reviews to find a diverse range of genres, from thrilling mysteries to heartwarming tales, all thoughtfully summarized to help you make informed choices. What sets our Book Review Site apart is the interactive element – we encourage you to share your thoughts by rating the books you've read. Your opinions matter, and your ratings contribute to a dynamic community that values the shared experience of literature. Join us in celebrating the magic of storytelling and discover your next favorite book while actively participating in the vibrant world of literary critique!
+        </p>
+        <article>
+            <a href="books.html" class="cta-button">Explore Books</a>
+        </article>
+    </section>
+
+</main>
+
+    <footer>
+        <p>&copy; 2023 Book Review Site. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS CDN link (Bundle) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

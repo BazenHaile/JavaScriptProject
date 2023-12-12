@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap CSS link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="styles.css">
+
+    <script defer src="script.js"></script>
+
+    <title>Book Review Site</title>
+</head>
+
+<body> 
+
+    <header>
+        <h1>Book Review Site</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="books.html">Books</a></li>
+                <li><a href="ratings.html">Ratings</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2 class="book_title">The Power of Now</h2>
+
+            <article>
+                <img src="Images/The Power of Now.jpg" alt="Featured Book Cover">
+                
+                <h3>A Guide to Spiritual Enlightenment </h3>
+                
+                <p>To make the journey into The Power of Now you need to leave your analytical mind and its false created self, the ego, behind. Access to the Now is everywhere - in the body, the silence, and the space all around you. These are the keys to enter a state of inner peace. They can be used to bring you into the Now, the present moment, where problems do not exist. It is here you find your joy and are able to embrace your true self. It is here you discover that you are already complete and perfect.
+
+                Although the journey is challenging, Eckhart Tolle offers simple language in a question and answer format. The words themselves are the signposts to guide you on your journey.
+                 <div> </div> 
+                 There are new discoveries to be made along the way: you are not your mind, you can find your way out of psychological pain, authentic human power is found by surrendering to the Now. When you become fully present and accepting of what is, you open yourself to the transforming experience of The Power of Now.
+
+                </p>    
+
+                <!-- Add the rating stars -->
+                <div id="ratingStars">
+                    <span onclick="rateBook(1)">★</span>
+                    <span onclick="rateBook(2)">★</span>
+                    <span onclick="rateBook(3)">★</span>
+                    <span onclick="rateBook(4)">★</span>
+                    <span onclick="rateBook(5)">★</span>
+                </div>
+                
+                <a href="books.html" class="cta-button">Explore More Books</a>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Book Review Site. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS CDN link (Bundle) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
